@@ -1,15 +1,22 @@
-Capstone Project (Products Segmentation)
+Predictive Modelling for Product Revenue Forecasting in Retail, Manufacturing, and Distribution Industries
 
-Questions:
-We have products be able to predict: 
-1.	Where are the optimal locations to sell our products?
-2.	When is the best time to sell our products?
-3.	At what price point should we sell our products?
-4.	Who is the target customer base for our products?
-5.	What type of promotions would be most effective for our products, and when should these be implemented?
-6.	What are the key product attributes (quality, size, weight, etc.) that affect its sales performance?
-7.	Which sales representative is best suited to sell each of our products?
+Problem Statement:
+Our project focused on predicting sales revenue for specific products or categories across manufacturing, retail, and distribution sectors. We aimed to forecast not just total revenue but also the granular revenue of each product based on their attributes to inform business decisions related to analysis, investment, budgeting, and operational management.
 
+Data and Preprocessing:
+
+Data from the Olist E-commerce public dataset, containing 100k orders from 2016 to 2018 in Brazil, was cleaned and preprocessed. Irrelevant columns and duplicates were removed, null values dropped, and certain categorical variables were converted to numerical. A 'sales revenue' feature was engineered by multiplying the 'item count' with the 'item price'.
+
+Analysis and Modelling:
+
+Employed three models: Linear Regression, Decision Tree, and Random Forest. The Linear Regression model demonstrated a good predictive capability, with an R-squared value of 85% for the training set, but had a high error level. The Decision Tree model showed a prediction accuracy of 78%, improving upon optimization. The Random Forest model had variable performance, but post-optimization, it exhibited a robust fit with an R^2 score of 89% on the training set and 85% on the test set.
+
+Key Findings:
+
+While the Linear Regression model was decently accurate, it showed limitations across the entire dataset. The Decision Tree model correctly estimated about 79% of sales changes, proving useful. The Random Forest model emerged as the most reliable for sales revenue prediction, marking its potential in business decisions.
+
+
+The dataset Link: https://drive.google.com/drive/folders/1wsZS4uwo68m3cPKY31QmbCUn66-vwMXR?usp=drive_link
 
 The dataset wireframe info:
 Int64Index: 117329 entries, 0 to 117328
