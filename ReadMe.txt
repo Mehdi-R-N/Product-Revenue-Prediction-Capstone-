@@ -16,7 +16,6 @@ Key Findings:
 While the Linear Regression model was decently accurate, it showed limitations across the entire dataset. The Decision Tree model correctly estimated about 79% of sales changes, proving useful. The Random Forest model emerged as the most reliable for sales revenue prediction, marking its potential in business decisions.
 
 
-The dataset Link: https://drive.google.com/drive/folders/1wsZS4uwo68m3cPKY31QmbCUn66-vwMXR?usp=drive_link
 
 The dataset wireframe info:
 Int64Index: 117329 entries, 0 to 117328
