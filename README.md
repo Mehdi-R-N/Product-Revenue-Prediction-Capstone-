@@ -24,6 +24,11 @@ We employed three models for our analysis:
 - The **Decision Tree model** correctly estimated about 79% of sales changes, proving to be useful.
 - The **Random Forest model** emerged as the most reliable for sales revenue prediction, marking its potential in business decision-making.
 
+## Conclusion
+The predictive modelling project for product revenue forecasting demonstrates the profound impact of advanced data analysis techniques in deciphering complex market dynamics. Our findings underscore the value of leveraging sophisticated models like Random Forest for their predictive prowess and adaptability. As we continue to refine our models and incorporate richer datasets, we anticipate providing even more accurate forecasts, further empowering businesses to make strategic decisions with confidence and precision.
+
+## Dataset Wireframe Info
+
 ## Dataset Wireframe Info
 ```plaintext
 Int64Index: 117329 entries, 0 to 117328
